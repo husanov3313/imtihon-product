@@ -1,0 +1,41 @@
+main{
+    .btn{
+        display: block;
+        padding: 10px;
+        width: 95px;
+        color: white;
+        background-color: black;
+        border-radius: 10px;
+        &:hover{
+        color: black;
+        background-color: white; 
+        box-shadow: 0 0 20px;
+        }
+    }
+    .showcase{
+        display: flex;
+        padding-top: 100px;
+        width: 100%;
+        h1{
+            font-size: 70px;
+            margin-top: 15%;
+            font-family: 'Courier New', Courier, monospace;
+            color: rgb(80, 67, 67);
+        }
+        p{
+            width: 400px;
+            line-height: 30px;
+
+        }
+        .portion{
+            .btn{
+                margin-top: 20px;
+            }
+            img{
+                max-width: 90%;
+                margin-left: 15%;
+              
+            }
+        }
+    }
+}

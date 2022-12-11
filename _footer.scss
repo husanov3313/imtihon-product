@@ -1,0 +1,55 @@
+footer{
+    background-color: rgb(240, 246, 247);
+    padding-top: 20px;
+}
+
+.footer{
+    display: flex;
+    gap: 50px;
+    font-size: 20px;
+    padding-bottom: 100px;
+    padding-top: 50px;
+    .footer_brand{
+        margin-top: 100px;
+    }
+    ul{ :nth-child(1){
+        margin-top:0px ;
+    }
+        li{
+            margin-top: 10px;
+            a{
+                &:hover{
+                    margin-left: 15px;
+                }
+            }
+            &:hover{
+                box-shadow: 0 0 20px black;
+                
+            }
+        }
+    }
+    ol{
+        display: flex;
+        gap: 20px;
+        p{
+            display: block;
+            font-size: 30px;
+            font-weight: bold;
+        }
+        li{
+            font-size: 30px;
+            padding: 5px;
+            margin-top: 20px;
+            
+                &:hover{
+                    color: blue;
+                    font-size: 35px;
+                }
+            
+        }
+    }
+    .font{
+        font-size: 30px;
+        font-weight: bold;
+    }
+}

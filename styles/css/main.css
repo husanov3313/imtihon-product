@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: lavender;
+}
+
+.portion {
+  flex: 1;
+}
+
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+header {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: #eee;
+  top: 0;
+  padding-bottom: 20px;
+  z-index: 5;
+}
+header .block {
+  padding: 20px;
+  border-bottom: 1px solid rgb(219, 180, 180);
+  display: flex;
+  justify-content: space-between;
+}
+header .block ul {
+  display: flex;
+  gap: 30px;
+}
+header .block ul li {
+  border: 1px solid transparent;
+  padding: 5px;
+}
+header .block ul li:hover {
+  border: 1px solid;
+  border-radius: 5px;
+}
+header .block ul .a {
+  outline: none;
+  font-size: 18px;
+  width: 80px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+main .btn {
+  display: block;
+  padding: 10px;
+  width: 95px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+main .btn:hover {
+  color: black;
+  background-color: white;
+  box-shadow: 0 0 20px;
+}
+main .showcase {
+  display: flex;
+  padding-top: 100px;
+  width: 100%;
+}
+main .showcase h1 {
+  font-size: 70px;
+  margin-top: 15%;
+  font-family: "Courier New", Courier, monospace;
+  color: rgb(80, 67, 67);
+}
+main .showcase p {
+  width: 400px;
+  line-height: 30px;
+}
+main .showcase .portion .btn {
+  margin-top: 20px;
+}
+main .showcase .portion img {
+  max-width: 90%;
+  margin-left: 15%;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 150px;
+}
+.logo .images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premium-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 50px;
+  gap: 40px;
+}
+.premium-block .search-1:nth-child(1) {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.newproduct-block {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 400px);
+  gap: 40px;
+  margin-top: 40px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+.bestseller-block {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 40px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}
+
+footer {
+  background-color: rgb(240, 246, 247);
+  padding-top: 20px;
+}
+
+.footer {
+  display: flex;
+  gap: 50px;
+  font-size: 20px;
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.footer .footer_brand {
+  margin-top: 100px;
+}
+.footer ul :nth-child(1) {
+  margin-top: 0px;
+}
+.footer ul li {
+  margin-top: 10px;
+}
+.footer ul li a:hover {
+  margin-left: 15px;
+}
+.footer ul li:hover {
+  box-shadow: 0 0 20px black;
+}
+.footer ol {
+  display: flex;
+  gap: 20px;
+}
+.footer ol p {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+}
+.footer ol li {
+  font-size: 30px;
+  padding: 5px;
+  margin-top: 20px;
+}
+.footer ol li:hover {
+  color: blue;
+  font-size: 35px;
+}
+.footer .font {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.search-1 {
+  grid-template-columns: repeat(4, 1fr);
+  padding: 20px;
+  position: relative;
+  background-color: #fff;
+  transition: 1s all ease-in-out;
+  overflow: hidden;
+  place-items: center;
+}
+.search-1 img {
+  max-width: 100%;
+}
+.search-1:hover .narx {
+  opacity: 1;
+  transform: translateY(0%);
+}
+.search-1 .narx {
+  color: white;
+  background-color: black;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: 0.5s all ease-in-out;
+}
+
+.search-block {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 40px;
+  position: relative;
+}
+
+.input {
+  width: 100%;
+  margin-top: 10%;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  border-radius: 10px;
+}
+.input:hover {
+  box-shadow: 0 0 10px rgb(180, 180, 143);
+  border-color: rgb(180, 180, 143);
+}
+
+.color {
+  color: yellow;
+}/*# sourceMappingURL=main.css.map */

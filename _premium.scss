@@ -1,0 +1,45 @@
+// .premium-1{
+//   background-color: blue;
+//   // grid-area: katta;
+//   grid-template-columns: repeat(8, 1fr);
+//   grid-template-rows: repeat(2, 300px);
+//   grid-column: span 2;
+//   grid-row: span 2;
+
+
+// }       
+.premium-block{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   margin-top: 50px ;
+    gap: 40px;
+    .search-1:nth-child(1){
+      grid-column: span 2;
+      grid-row: span 2;
+    }
+    // margin-top: 40px;
+    // grid-template-areas: " katta katta kichik-1 kichik-2  "
+    //                        "katta katta kichik-3 kichik-4";
+      
+      // .premium-2{
+      //   background-color: blue;
+      //   grid-area: kichik-1;
+      // }              
+      // .premium-3{
+      //   background-color: blue;
+      //   grid-area: kichik-2;
+      // }    
+      // .premium-4{
+      //   background-color: blue;
+      //   grid-area: kichik-3;
+      // }       
+      // .premium-5{
+      //   background-color: blue;
+      //   grid-area: kichik-4;
+      // }                                         
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}

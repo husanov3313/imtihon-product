@@ -1,0 +1,46 @@
+.newproduct-block{
+    display: grid;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 400px);
+    gap: 40px;
+    margin-top: 40px;
+//     grid-template-areas: " normal-1 normal-2 normal-3 normal-4 "
+//                            "normal-5 normal-6 normal-7 normal-8";
+//       .newproduct-1{
+//         background-color: blue;
+//         grid-area: normal-1;
+//       }          
+//       .newproduct-2{
+//         background-color: blue;
+//         grid-area: normal-2;
+//       }              
+//       .newproduct-3{
+//         background-color: blue;
+//         grid-area: normal-3;
+//       }    
+//       .newproduct-4{
+//         background-color: blue;
+//         grid-area: normal-4;
+//       }       
+//       .newproduct-5{
+//         background-color: blue;
+//         grid-area: normal-5;
+//       }         
+//       .newproduct-6{
+//         background-color: blue;
+//         grid-area: normal-6;
+//       }  
+//       .newproduct-7{
+//         background-color: blue;
+//         grid-area: normal-7;
+//       }    
+//       .newproduct-8{
+//         background-color: blue;
+//         grid-area: normal-8;
+//       }                                                     
+}
+h2{
+  text-align: center;
+  font-size: 50px;
+  margin-top: 10%;
+}
